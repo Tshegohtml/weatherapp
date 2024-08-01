@@ -3,7 +3,6 @@
   text-align: center;
   margin: 0;
   padding: 20px;
-  background-color: #f0f8ff; 
 }
 
 
@@ -50,27 +49,30 @@ button:hover {
 .weather-info {
   margin-top: 20px;
   padding: 20px;
-  border: 1px solid #ddd; /* Light grey border */
+  border: 1px solid #ddd; 
   border-radius: 4px;
-  background-color: #fff; /* White background for weather info */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .weather-info h2 {
   margin: 0;
   font-size: 24px;
-  color: #333;
+  color: rgb(0, 0, 0);
 }
 
 .weather-info p {
   font-size: 18px;
   margin: 5px 0;
-  color: #555;
+  color: rgb(0, 0, 0);
 }
 body{
   background-color: deepskyblue;
-  background-image: url(./components/weather\ image.jpg);
+  background: url(./components/pexels-aaronburden-2449543.jpg) center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
  
+}
+.weather-icon {
+  width: 100px; 
+  height: auto;
 }
