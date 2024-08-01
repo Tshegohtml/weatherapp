@@ -1,24 +1,76 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
-  margin-top: 50px;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f8ff; 
 }
 
-input {
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
   padding: 10px;
   font-size: 16px;
-  width: 200px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  width: 250px;
+  max-width: 100%;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 button {
   padding: 10px 20px;
   font-size: 16px;
-  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+
+.error {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
 
 .weather-info {
   margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 4px;
+  background-color: #fff; /* White background for weather info */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.error {
-  color: red;
+.weather-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
+body{
+  background-color: deepskyblue;
+  background-image: url(./components/weather\ image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
 }
